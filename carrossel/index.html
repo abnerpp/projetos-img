@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrossel de Imagens</title>
+    <!-- Corrigido o nome do arquivo CSS -->
+    <link rel="stylesheet" href="/carrossel/style.css">
+</head>
+<body>
+    <div class="carrossel-container">
+        <div class="carrossel">
+            <!-- Imagens do carrossel -->
+            <img src="/projeto-snes/img1.jpg" alt="Imagem 1" class="carrossel-imagem ativa">
+            <img src="/projeto-snes/img2.jpg" alt="Imagem 2" class="carrossel-imagem">
+            <img src="/projeto-snes/img3.png" alt="Imagem 3" class="carrossel-imagem">
+            <img src="/projeto-snes/img4.jpeg" alt="Imagem 4" class="carrossel-imagem">
+            <img src="/projeto-snes/img5.jpeg" alt="Imagem 5" class="carrossel-imagem">
+            <img src="/projeto-snes/img6.png" alt="Imagem 6" class="carrossel-imagem">
+            <img src="/projeto-snes/img7.jpg" alt="Imagem 7" class="carrossel-imagem">
+            <img src="/projeto-snes/img8.jpg" alt="Imagem 8" class="carrossel-imagem">
+            <img src="/projeto-snes/img9.jpg" alt="Imagem 9" class="carrossel-imagem">
+            <img src="/projeto-snes/img10.jpg" alt="Imagem 10" class="carrossel-imagem">
+            <img src="/projeto-snes/img11.jpg" alt="Imagem 11" class="carrossel-imagem">
+            <img src="/projeto-snes/img12.jpg" alt="Imagem 12" class="carrossel-imagem">
+            <img src="/projeto-snes/img13.jpg" alt="Imagem 13" class="carrossel-imagem">
+        </div>
+        
+        <!-- Botões de navegação -->
+        <button class="carrossel-botao anterior" onclick="mudarImagem(-1)">&#10094;</button>
+        <button class="carrossel-botao proximo" onclick="mudarImagem(1)">&#10095;</button>
+        
+        <!-- Indicadores de posição (13 indicadores para 13 imagens) -->
+        <div class="carrossel-indicadores">
+            <span class="indicador ativo" onclick="irParaImagem(0)"></span>
+            <span class="indicador" onclick="irParaImagem(1)"></span>
+            <span class="indicador" onclick="irParaImagem(2)"></span>
+            <span class="indicador" onclick="irParaImagem(3)"></span>
+            <span class="indicador" onclick="irParaImagem(4)"></span>
+            <span class="indicador" onclick="irParaImagem(5)"></span>
+            <span class="indicador" onclick="irParaImagem(6)"></span>
+            <span class="indicador" onclick="irParaImagem(7)"></span>
+            <span class="indicador" onclick="irParaImagem(8)"></span>
+            <span class="indicador" onclick="irParaImagem(9)"></span>
+            <span class="indicador" onclick="irParaImagem(10)"></span>
+            <span class="indicador" onclick="irParaImagem(11)"></span>
+            <span class="indicador" onclick="irParaImagem(12)"></span>
+        </div>
+    </div>
+    <div class="Texto">Apresentação imagens</div>
+
+    <script src="/carrossel/script.js"></script>
+</body>
+</html>
