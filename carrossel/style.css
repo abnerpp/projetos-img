@@ -1,7 +1,18 @@
 body {
-    background-color: #042346;
     margin: 0;
     padding: 20px;
+    background-color: #2b1264;
+    }
+.retrato {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    height: 60vh;
+    width: 800px;
+    border-radius: 20px;
+    background-color: #2b1264;
+    border: solid 40px #47a52d;
 }
 /* Estilos gerais do carrossel */
 .carrossel-container {
@@ -15,6 +26,7 @@ body {
 .carrossel {
     display: flex;
     transition: transform 0.5s ease-in-out;
+    z-index: 2;
 }
 
 /* Estilo das imagens do carrossel */
@@ -99,3 +111,4 @@ body {
     margin-top: 20px;
     font-weight: bold;
 }
+
